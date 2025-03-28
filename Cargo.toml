@@ -1,0 +1,10 @@
+[package]
+name = "reedline-suspend"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+reedline = "0.28.0"
+nix = { version = "0.27.1", features = ["signal"] }
+crossterm = "0.27.0"
+thiserror = "1.0.56"
