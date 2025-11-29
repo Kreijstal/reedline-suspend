@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-reedline = "0.43.0"
+reedline = "0.44.0"
 nix = { version = "0.30.0", features = ["signal"] }
 crossterm = "0.29.0"
 thiserror = "2.0.0"
